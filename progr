@@ -8,6 +8,7 @@ namespace HW3_1
         {
             // r в коде это rows
             // input_c - (colums) - ввести столбцы для двумерного массива, c - столбцы
+
             // одномерные массивы
             // Console.WriteLine("Input len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
@@ -18,14 +19,14 @@ namespace HW3_1
             // {
             //    init_input = true;
             // }
-            // SingleArray single_array = new SingleArray(input_length, init_input);
-            // single_array.CreateArray();
-            // single_array.WriteArray();
-            // single_array.ArrayMod100();
-            // single_array.WriteArray();
-            // single_array.ClearArray();
-            // single_array.WriteArray();
-            // Console.WriteLine($"average : {single_array.Average()}");
+            // OneStep one_step = new OneStep(input_length, init_input);
+            // one_step.NewArray();
+            // one_step.WriteArray();
+            // one_step.ArrayMod100();
+            // one_step.WriteArray();
+            // one_step.ClearArray();
+            // one_step.WriteArray();
+            // Console.WriteLine($"average : {one_step.Average()}");
 
             // двумерные массивы
             // Console.WriteLine("Input rows of two-dimensional array: ");
