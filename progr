@@ -10,7 +10,7 @@ namespace HW3_1
             // одномерные массивы
             // Console.WriteLine("Input the len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
-            // Console.WriteLine("Input 'yes' if you want to input array or 'no' to create array automatically with random numbers: ");
+            // Console.WriteLine("Yes for inputing an array and no for filling it with random nums ");
             // string input = Console.ReadLine();
             // bool init_input = false;
             // if (input == "yes")
@@ -63,7 +63,7 @@ namespace HW3_1
             // {
             //    output += average_values[i].ToString() + " ";
             // }
-            // Console.WriteLine($"The average values are: {output}");
+            // Console.WriteLine($"average values: {output}");
             // jagged_array.ChangeEvenNums();
             // jagged_array.WriteArray();
         }
