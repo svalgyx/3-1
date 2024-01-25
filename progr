@@ -56,7 +56,7 @@ namespace HW3_1
             //    init_input = true;
             // }
             // JaggedArray jagged_array = new JaggedArray(input_r, init_input);
-            // jagged_array.CreateArray();
+            // jagged_array.NewArray();
             // jagged_array.WriteArray();
             // Console.WriteLine($"average: {jagged_array.Average()}");
             // double[] average_values = jagged_array.AverageValues();
@@ -66,7 +66,7 @@ namespace HW3_1
             //    output += average_values[i].ToString() + " ";
             // }
             // Console.WriteLine($"average values: {output}");
-            // jagged_array.ChangeEvenNums();
+            // jagged_array.NumsToo();
             // jagged_array.WriteArray();
         }
     }
