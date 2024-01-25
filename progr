@@ -6,6 +6,7 @@ namespace HW3_1
     {
         static void Main(string[] args)
         {
+            // r в коде это rows
             // одномерные массивы
             // Console.WriteLine("Input the len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
@@ -27,7 +28,7 @@ namespace HW3_1
 
             // двумерные массивы
             // Console.WriteLine("Input rows of two-dimensional array: ");
-            // int input_rows = int.Parse(Console.ReadLine());
+            // int input_r = int.Parse(Console.ReadLine());
             // Console.WriteLine("Input columns of two-dimension array: ");
             // int input_columns = int.Parse(Console.ReadLine());
             // Console.WriteLine("Yes for inputing array, no for filling with rand numbers ");
@@ -37,28 +38,28 @@ namespace HW3_1
             // {
             //    init_input = true;
             // }
-            // MatrixArray matrix_array = new MatrixArray(input_rows, input_columns, init_input);
+            // MatrixArray matrix_array = new MatrixArray(input_r, input_columns, init_input);
             // matrix_array.CreateArray();
             // matrix_array.WriteArray();
             // Console.WriteLine($"The average is: {matrix_array.Average()}");
 
             // ступенчатые массивы
-            // Console.WriteLine("Input rows of jagged array: ");
-            // int input_rows = int.Parse(Console.ReadLine());
-            // Console.WriteLine("Input 'yes' if you want to input array or 'no' to create array automatically with random numbers: ");
+            // Console.WriteLine("Input rows (rows of jagged array: ");
+            // int input_r = int.Parse(Console.ReadLine());
+            // Console.WriteLine("Yes for inputing an array and no for filling it with random nums ");
             // string input = Console.ReadLine();
             // bool init_input = false;
             // if (input == "yes")
             // {
             //    init_input = true;
             // }
-            // JaggedArray jagged_array = new JaggedArray(input_rows, init_input);
+            // JaggedArray jagged_array = new JaggedArray(input_r, init_input);
             // jagged_array.CreateArray();
             // jagged_array.WriteArray();
             // Console.WriteLine($"The average is: {jagged_array.Average()}");
             // double[] average_values = jagged_array.AverageValues();
             // string output = "";
-            // for (int i = 0; i < input_rows; i++)
+            // for (int i = 0; i < input_r; i++)
             // {
             //    output += average_values[i].ToString() + " ";
             // }
