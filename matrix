@@ -3,14 +3,14 @@ namespace HW3_1
     class MatrixArray
     {
         private int r = 0;
-        private int columns = 0;
+        private int c = 0;
         private bool init = true;
         private int[,] arr;
 
-        public MatrixArray(int input_r, int input_columns, bool input_init = true)
+        public MatrixArray(int input_r, int input_c, bool input_init = true)
         {
             rows = input_r;
-            columns = input_columns;
+            columns = input_c;
             init = input_init;
             arr = new int[r, columns];
         }
@@ -23,7 +23,7 @@ namespace HW3_1
                 {
                     string r = Console.ReadLine();
                     string[] array_r = r.Split(' ');
-                    for (int j = 0; j < columns; j++)
+                    for (int j = 0; j < c; j++)
                     {
                         arr[i, j] = int.Parse(array_r[j]);
                     }
@@ -34,7 +34,7 @@ namespace HW3_1
                 Random rnd = new Random();
                 for (int i = 0; i < r; i++)
                 {
-                    for (int j = 0; j < columns; j++)
+                    for (int j = 0; j < c; j++)
                     {
                         arr[i, j] = rnd.Next(1, 100);
                     }
@@ -48,7 +48,7 @@ namespace HW3_1
             for (int i = 0; i < r; i++)
             {
                 string r = "";
-                for (int j = 0; j < columns; j++)
+                for (int j = 0; j < c; j++)
                 {
                     r += arr[i, j] + " ";
                 }
@@ -60,14 +60,14 @@ namespace HW3_1
                 string r = "";
                 if (i % 2 == 0)
                 {
-                    for (int j = 0; j < columns; j++)
+                    for (int j = 0; j < c; j++)
                     {
                         r += arr[i, j] + " ";
                     }
                 }
                 else
                 {
-                    for (int j = columns - 1; j >= 0; j--)
+                    for (int j = c - 1; j >= 0; j--)
                     {
                         r += arr[i, j] + " ";
                     }
@@ -81,7 +81,7 @@ namespace HW3_1
             int sum = 0;
             for (int i = 0; i < r; i++)
             {
-                for (int j = 0; j < columns; j++)
+                for (int j = 0; j < c; j++)
                 {
                     sum += arr[i, j];
                 }
