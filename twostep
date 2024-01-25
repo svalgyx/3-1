@@ -9,7 +9,7 @@ namespace HW3_1
 
         public TwoStep(int input_r, int input_c, bool input_init = true)
         {
-            rows = input_r;
+            r = input_r;
             c = input_c;
             init = input_init;
             arr = new int[r, c];
