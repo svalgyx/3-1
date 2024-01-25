@@ -2,40 +2,40 @@ namespace HW3_1
 {
     class Jagged
     {
-        private int rows = 0;
+        private int r = 0;
         private bool init = true;
         private int[][] arr;
 
-        public Jagged(int input_rows, bool input_init = true)
+        public Jagged(int input_r, bool input_init = true)
         {
-            rows = input_rows;
+            r = input_r;
             init = input_init;
-            arr = new int[rows][];
+            arr = new int[r][];
         }
 
         public void CreateArray()
         {
             if (init)
             {
-                for (int i = 0; i < rows; i++)
+                for (int i = 0; i < r; i++)
                 {
-                    string row = Console.ReadLine();
-                    string[] array_row = row.Split(' ');
-                    arr[i] = new int[array_row.Length];
-                    for (int j = 0; j < array_row.Length; j++)
+                    string r = Console.ReadLine();
+                    string[] array_r = r.Split(' ');
+                    arr[i] = new int[array_r.Length];
+                    for (int j = 0; j < array_r.Length; j++)
                     {
-                        arr[i][j] = int.Parse(array_row[j]);
+                        arr[i][j] = int.Parse(array_r[j]);
                     }
                 }
             }
             else
             {
                 Random rnd = new Random();
-                for (int i = 0; i < rows; i++)
+                for (int i = 0; i < r; i++)
                 {
-                    int array_row_len = rnd.Next(1, 10);
-                    arr[i] = new int[array_row_len];
-                    for (int j = 0; j < array_row_len; j++)
+                    int array_r_len = rnd.Next(1, 10);
+                    arr[i] = new int[array_r_len];
+                    for (int j = 0; j < array_r_len; j++)
                     {
                         arr[i][j] = rnd.Next(1, 100);
                     }
@@ -46,7 +46,7 @@ namespace HW3_1
         public void WriteArray()
         {
             Console.WriteLine("Writing jagged array: ");
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < r; i++)
             {
                 for (int j = 0; j < arr[i].Length; j++)
                 {
@@ -60,7 +60,7 @@ namespace HW3_1
         {
             int sum = 0;
             int counter = 0;
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < r; i++)
             {
                 for (int j = 0; j < arr[i].Length; j++)
                 {
@@ -74,8 +74,8 @@ namespace HW3_1
 
         public double[] AverageValues()
         {
-            double[] average_values = new double[rows];
-            for (int i = 0; i < rows; i++)
+            double[] average_values = new double[r];
+            for (int i = 0; i < r; i++)
             {
                 int sum = 0;
                 for (int j = 0; j < arr[i].Length; j++)
@@ -90,7 +90,7 @@ namespace HW3_1
 
         public void NumsToo()
         {
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < r; i++)
             {
                 for (int j = 0; j < arr[i].Length; j++)
                 {
