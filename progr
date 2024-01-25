@@ -7,6 +7,7 @@ namespace HW3_1
         static void Main(string[] args)
         {
             // r в коде это rows
+            // input_c - (colums) - ввести столбцы для двумерного массива
             // одномерные массивы
             // Console.WriteLine("Input len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
@@ -29,8 +30,8 @@ namespace HW3_1
             // двумерные массивы
             // Console.WriteLine("Input rows of two-dimensional array: ");
             // int input_r = int.Parse(Console.ReadLine());
-            // Console.WriteLine("Input columns of two-dimension array: ");
-            // int input_columns = int.Parse(Console.ReadLine());
+            // Console.WriteLine("Input colums of two-dimension array: ");
+            // int input_c = int.Parse(Console.ReadLine());
             // Console.WriteLine("Yes for inputing array, no for filling with rand numbers ");
             // string input = Console.ReadLine();
             // bool init_input = false;
@@ -38,7 +39,7 @@ namespace HW3_1
             // {
             //    init_input = true;
             // }
-            // MatrixArray matrix_array = new MatrixArray(input_r, input_columns, init_input);
+            // MatrixArray matrix_array = new MatrixArray(input_r, input_c, init_input);
             // matrix_array.CreateArray();
             // matrix_array.WriteArray();
             // Console.WriteLine($"average: {matrix_array.Average()}");
