@@ -25,14 +25,14 @@ namespace HW3_1
             // single_array.WriteArray();
             // single_array.ClearArray();
             // single_array.WriteArray();
-            // Console.WriteLine($"The average is: {single_array.Average()}");
+            // Console.WriteLine($"average : {single_array.Average()}");
 
             // двумерные массивы
             // Console.WriteLine("Input rows of two-dimensional array: ");
             // int input_r = int.Parse(Console.ReadLine());
             // Console.WriteLine("Input colums of two-dimension array: ");
             // int input_c = int.Parse(Console.ReadLine());
-            // Console.WriteLine("Yes for inputing array, no for filling with rand numbers ");
+            // Console.WriteLine("yes for inputing array, no for filling with rand numbers ");
             // string input = Console.ReadLine();
             // bool init_input = false;
             // if (input == "yes")
@@ -47,7 +47,7 @@ namespace HW3_1
             // ступенчатые массивы
             // Console.WriteLine("Input rows (rows of jagged array: ");
             // int input_r = int.Parse(Console.ReadLine());
-            // Console.WriteLine("Yes for inputing an array and no for filling it with random nums ");
+            // Console.WriteLine("yes for inputing an array and no for filling it with random nums ");
             // string input = Console.ReadLine();
             // bool init_input = false;
             // if (input == "yes")
@@ -57,7 +57,7 @@ namespace HW3_1
             // JaggedArray jagged_array = new JaggedArray(input_r, init_input);
             // jagged_array.CreateArray();
             // jagged_array.WriteArray();
-            // Console.WriteLine($"The average is: {jagged_array.Average()}");
+            // Console.WriteLine($"average: {jagged_array.Average()}");
             // double[] average_values = jagged_array.AverageValues();
             // string output = "";
             // for (int i = 0; i < input_r; i++)
