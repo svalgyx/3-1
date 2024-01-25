@@ -12,7 +12,7 @@ namespace HW3_1
             // одномерные массивы
             // Console.WriteLine("Input len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
-            // Console.WriteLine("Yes for inputing an array and no for filling it with random nums ");
+            // Console.WriteLine("yes for inputing an array and no for filling it with random nums ");
             // string input = Console.ReadLine();
             // bool init_input = false;
             // if (input == "yes")
