@@ -13,7 +13,7 @@ namespace HW3_1
             arr = new int[r][];
         }
 
-        public void CreateArray()
+        public void NewArray()
         {
             if (init)
             {
