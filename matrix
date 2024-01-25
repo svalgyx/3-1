@@ -2,37 +2,37 @@ namespace HW3_1
 {
     class MatrixArray
     {
-        private int rows = 0;
+        private int r = 0;
         private int columns = 0;
         private bool init = true;
         private int[,] arr;
 
-        public MatrixArray(int input_rows, int input_columns, bool input_init = true)
+        public MatrixArray(int input_r, int input_columns, bool input_init = true)
         {
-            rows = input_rows;
+            rows = input_r;
             columns = input_columns;
             init = input_init;
-            arr = new int[rows, columns];
+            arr = new int[r, columns];
         }
 
         public void CreateArray()
         {
             if (init)
             {
-                for (int i = 0; i < rows; i++)
+                for (int i = 0; i < r; i++)
                 {
-                    string row = Console.ReadLine();
-                    string[] array_row = row.Split(' ');
+                    string r = Console.ReadLine();
+                    string[] array_r = r.Split(' ');
                     for (int j = 0; j < columns; j++)
                     {
-                        arr[i, j] = int.Parse(array_row[j]);
+                        arr[i, j] = int.Parse(array_r[j]);
                     }
                 }
             }
             else
             {
                 Random rnd = new Random();
-                for (int i = 0; i < rows; i++)
+                for (int i = 0; i < r; i++)
                 {
                     for (int j = 0; j < columns; j++)
                     {
@@ -45,41 +45,41 @@ namespace HW3_1
         public void WriteArray()
         {
             Console.WriteLine("Writing two-dimensional array: ");
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < r; i++)
             {
-                string row = "";
+                string r = "";
                 for (int j = 0; j < columns; j++)
                 {
-                    row += arr[i, j] + " ";
+                    r += arr[i, j] + " ";
                 }
-                Console.WriteLine(row);
+                Console.WriteLine(r);
             }
             Console.WriteLine("Writing two-dimensional array in a snake pattern: ");
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < r; i++)
             {
-                string row = "";
+                string r = "";
                 if (i % 2 == 0)
                 {
                     for (int j = 0; j < columns; j++)
                     {
-                        row += arr[i, j] + " ";
+                        r += arr[i, j] + " ";
                     }
                 }
                 else
                 {
                     for (int j = columns - 1; j >= 0; j--)
                     {
-                        row += arr[i, j] + " ";
+                        r += arr[i, j] + " ";
                     }
                 }
-                Console.WriteLine(row);
+                Console.WriteLine(r);
             }
         }
 
         public double Average()
         {
             int sum = 0;
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < r; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
@@ -87,7 +87,7 @@ namespace HW3_1
                 }
             }
             Console.WriteLine("Counted the average value of the array: ");
-            return (double)sum / (double)(rows * columns);
+            return (double)sum / (double)(r * columns);
         }
     }
 }
