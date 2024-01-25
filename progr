@@ -7,7 +7,7 @@ namespace HW3_1
         static void Main(string[] args)
         {
             // r в коде это rows
-            // input_c - (colums) - ввести столбцы для двумерного массива
+            // input_c - (colums) - ввести столбцы для двумерного массива, c - столбцы
             // одномерные массивы
             // Console.WriteLine("Input len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
