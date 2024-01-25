@@ -35,7 +35,7 @@ namespace HW31
 
         public void WriteArray()
         {
-            Console.WriteLine("Writing single array: ");
+            Console.WriteLine("Writing one-step array: ");
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(arr[i] + " ");
@@ -52,7 +52,7 @@ namespace HW31
                 sum += arr[i];
                 counter++;
             }
-            Console.WriteLine("Counted the average value of the array: ");
+            Console.WriteLine(" average value of the array: ");
             return (double)sum / (double)counter;
         }
 
@@ -77,7 +77,7 @@ namespace HW31
                 }
             }
             arr = cleararray;
-            Console.WriteLine("All elements higher than 100 were deleted: ");
+            Console.WriteLine(" elements higher than 100 deleted: ");
         }
 
         private bool ContainsStopIndex(int arr, int element, int stopindex)
