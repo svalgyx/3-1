@@ -1,4 +1,4 @@
-using System;
+for using System;
 
 namespace HW3_1
 {
@@ -6,7 +6,7 @@ namespace HW3_1
     {
         static void Main(string[] args)
         {
-            // ОДНОМЕРНЫЕ МАССИВЫ
+            // одномерные массивы
             // Console.WriteLine("Input the len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
             // Console.WriteLine("Input 'yes' if you want to input array or 'no' to create array automatically with random numbers: ");
@@ -25,12 +25,12 @@ namespace HW3_1
             // single_array.WriteArray();
             // Console.WriteLine($"The average is: {single_array.Average()}");
 
-            // ДВУМЕРНЫЕ МАССИВЫ
+            // двумерные массивы
             // Console.WriteLine("Input rows of two-dimensional array: ");
             // int input_rows = int.Parse(Console.ReadLine());
             // Console.WriteLine("Input columns of two-dimension array: ");
             // int input_columns = int.Parse(Console.ReadLine());
-            // Console.WriteLine("Input 'yes' if you want to input array or 'no' to create array automatically with random numbers: ");
+            // Console.WriteLine("Yes for inputing array, no for filling with rand numbers ");
             // string input = Console.ReadLine();
             // bool init_input = false;
             // if (input == "yes")
@@ -42,7 +42,7 @@ namespace HW3_1
             // matrix_array.WriteArray();
             // Console.WriteLine($"The average is: {matrix_array.Average()}");
 
-            // СТУПЕНЧАТЫЕ МАССИВЫ
+            // ступенчатые массивы
             // Console.WriteLine("Input rows of jagged array: ");
             // int input_rows = int.Parse(Console.ReadLine());
             // Console.WriteLine("Input 'yes' if you want to input array or 'no' to create array automatically with random numbers: ");
