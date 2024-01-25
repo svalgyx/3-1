@@ -1,19 +1,19 @@
 namespace HW31
 {
-    class SingleArray
+    class OneStep
     {
         private int len = 0;
         private bool init = true;
         private int[] arr;
 
-        public SingleArray(int inputlen, bool initinput = true)
+        public OneStep(int inputlen, bool initinput = true)
         {
             len = inputlen;
             init = initinput;
             arr = new int[len];
         }
 
-        public void CreateArray()
+        public void NewArray()
         {
             if (init)
             {
