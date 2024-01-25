@@ -8,7 +8,7 @@ namespace HW3_1
         {
             // r в коде это rows
             // одномерные массивы
-            // Console.WriteLine("Input the len of the array: ");
+            // Console.WriteLine("Input len of the array: ");
             // int input_length = int.Parse(Console.ReadLine());
             // Console.WriteLine("Yes for inputing an array and no for filling it with random nums ");
             // string input = Console.ReadLine();
@@ -41,7 +41,7 @@ namespace HW3_1
             // MatrixArray matrix_array = new MatrixArray(input_r, input_columns, init_input);
             // matrix_array.CreateArray();
             // matrix_array.WriteArray();
-            // Console.WriteLine($"The average is: {matrix_array.Average()}");
+            // Console.WriteLine($"average: {matrix_array.Average()}");
 
             // ступенчатые массивы
             // Console.WriteLine("Input rows (rows of jagged array: ");
