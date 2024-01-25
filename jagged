@@ -9,7 +9,7 @@ namespace HW3_1
         public Jagged(int input_r, bool input_init = true)
         {
             r = input_r;
-            init = input_init;
+            init = input_init; 
             arr = new int[r][];
         }
 
