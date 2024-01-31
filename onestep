@@ -66,7 +66,7 @@ namespace HW3_1
                     count++;
                 }
             }
-            int[] cleararray = new intcount;
+            int[] cleararray = new intcount();
             count = 0;
             for (int i = 0; i < arr.Length; i++)
             {
